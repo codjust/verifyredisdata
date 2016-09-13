@@ -1,0 +1,10 @@
+[
+    {
+         "ver":15, "data": [
+            ["hset","upload_client_conf","WebApp_php","[{\"type\":\"http\",\"uri\":\"http://127.0.0.1:3951/edr\"}]"],
+            ["hset","upload_client_conf","edr_process","[{\"type\":\"http\",\"uri\":\"http://127.0.0.1:3951/edr\"}]"],
+            ["hset","upload_client_conf","account","[{\"type\":\"http\",\"uri\":\"http://127.0.0.1:3951/edr\"}]"],
+            ["hset","upload_client_conf","software","[{\"type\":\"http\",\"uri\":\"http://127.0.0.1:3951/edr\"}]"]
+        ]
+    }
+]

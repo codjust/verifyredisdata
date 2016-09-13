@@ -1,0 +1,320 @@
+[
+    {
+        "ver":1, "data": [
+            [
+                "hset",
+                "svr_system_config",
+                "leak_fix_settings",
+                "{\"level\":[\"1\",\"2\"],\"leak_type\":[\"0\",\"1\",\"2\"],\"type_with_tp\":[\"0\",\"1\"],\"os_type\":[\"6.3.0\",\"6.2.0\",\"6.1.0\",\"6.0.0\",\"5.1.0\"],\"gids\":[],\"date_gap\":0,\"enable\":0}"
+            ],
+            [
+                "hset",
+                "svr_system_config",
+                "cloud_engine_switch",
+                "\"[{\"name\":\"test\",\"range\":\"08:00-12:00;19:00-21:00\",\"monday\":1,\"tuesday\":1,\"wensday\":1,\"thursday\":1,\"friday\":1,\"saturday\":1,\"sunday\":1,\"id\":1}]\""
+            ],
+            [
+                "hset",
+                "svr_system_config",
+                "hostmonitor.moredisplay",
+                "[\"description\",\"memory\",\"monitor\"]"
+            ],
+            [
+                "hset",
+                "svr_system_config",
+                "leak_settings",
+                "{\"auto_fix\":1,\"level\":\"4,3\",\"type\":\"2,1\",\"os_type\":null,\"blue_fix\":1,\"close_win_update\":1}"
+            ],
+            [
+                "hset",
+                "svr_system_config",
+                "tools_ip_filter_enable",
+                "1"
+            ],
+            [
+                "hset",
+                "svr_system_config",
+                "public_cloud_visitable",
+                "1"
+            ],
+            [
+                "hset",
+                "svr_system_config",
+                "hostmonitor.attention",
+                "eventalarm"
+            ],
+            [
+                "hset",
+                "svr_system_config",
+                "sys_cron_conf",
+                "{\"Backup\":{\"cron\":\"0 14 * * *\",\"days\":\"6\"}}"
+            ],
+            [
+                "hset",
+                "svr_system_config",
+                "system_summary",
+                "{\"exam_avg_score\":40,\"cli_online_cnt\":0,\"cli_online_rate\":0,\"system_live_day\":50,\"danger_file_cnt\":11237,\"sys_garbage\":2097152,\"speed_up_cnt\":\"\",\"deploy_cnt\":252107,\"deploy_rate\":\"\",\"leak_cnt\":484,\"main_ver\":\"1.0.0.1\",\"virus_lib_ver\":\"1.0.0.2\",\"no_exam_days\":0,\"no_scan_days\":0,\"alarm_event_cnt\":12,\"domain_avg_exam_score\":40,\"no_exam_days_ignored_on\":\"2015-05-26 15:16:33\",\"danger_file_cnt_ignored_on\":null,\"leak_cnt_ignored_on\":null,\"no_scan_days_ignored_on\":\"2015-05-26 15:21:39\",\"alarm_event_cnt_ignored_on\":null}"
+            ],
+            [
+                "hset",
+                "svr_system_config",
+                "exam_settings",
+                "{\"exam_items\":[\"leak\",\"safe\"],\"fix_items\":[\"leak\",\"safe\"]}"
+            ],
+            [
+                "hset",
+                "svr_system_config",
+                "cloud_engine_proxy",
+                "\"[{\"name\":\"test\",\"range\":\"08:00-12:00;19:00-21:00\",\"monday\":1,\"tuesday\":1,\"wensday\":1,\"thursday\":1,\"friday\":1,\"saturday\":1,\"sunday\":1,\"id\":1}]\""
+            ],
+            [
+                "hset",
+                "svr_system_config",
+                "client_deploy_setting",
+                "{\"deploy_msg\":\"\\u5404\\u4f4d\\u540c\\u4e8b\\uff1a\\n       \\u4e3a\\u4e86\\u66f4\\u597d\\u7684\\u4fdd\\u969c\\u4f01\\u4e1a\\u5185\\u7f51\\u5b89\\u5168\\uff0c\\u516c\\u53f8\\u51b3\\u5b9a\\u4ece\\u5373\\u65e5\\u8d77\\u5168\\u9762\\u5b89\\u88c5\\u90e8\\u7f72 360\\u5929\\u64ce\\u7ec8\\u7aef\\u5b89\\u5168\\u7cfb\\u7edf \\u3002\\n       \\u60a8\\u53ef\\u4ee5\\u901a\\u8fc7\\u4ee5\\u4e0b\\u65b9\\u6cd5\\u4e0b\\u8f7d\\u5e76\\u5b89\\u88c5\\uff0c\\u7ec8\\u7aef\\u652f\\u6301\\u57df\\u540d\\u65b9\\u5f0f\\u90e8\\u7f72\\uff0c\\u5b89\\u88c5\\u540e\\u65e0\\u9700\\u4efb\\u4f55\\u8bbe\\u7f6e\\u53ef\\u4ee5\\u7acb\\u5373\\u4f7f\\u7528\\u3002Hello\\n       \\u6211\\u662f\\u6765\\u6d4b\\u8bd5\\u7684hhhhhhhhhhhh\\naaaaaaAAAGGGG\\n\\u6211\\u8981\\u52a0\\u5165\\u957f\\u957f\\u7684\\u6587\\u5b57\\uff0c\\u6211\\u8981\\u52a0\\u5165\\u957f\\u957f\\u7684\\u6587\\u5b57\\u6211\\u8981\\u52a0\\u5165\\u957f\\u957f\\u7684\\u6587\\u5b57\\u6211\\u8981\\u52a0\\u5165\\u957f\\u957f\\u7684\\u6587\\u5b57\\u6211\\u8981\\u52a0\\u5165\\u957f\\u957f\\u7684\\u6587\\u5b57\\u6211\\u8981\\u52a0\\u5165\\u957f\\u957f\\u7684\\u6587\\u5b57\\u6211\\u8981\\u52a0\\u5165\\u957f\\u957f\\u7684\\u6587\\u5b57\\u6211\\u8981\\u52a0\\u5165\\u957f\\u957f\\u7684\\u6587\\u5b57\\u6211\\u8981\\u52a0\\u5165\\u957f\\u957f\\u7684\\u6587\\u5b57\\n\\n\\u6211\\u8981\\u52a0\\u5165\\u957f\\u957f\\u7684\\u6587\\u5b57\\uff0c\\u6211\\u8981\\u52a0\\u5165\\u957f\\u957f\\u7684\\u6587\\u5b57\\u6211\\u8981\\u52a0\\u5165\\u957f\\u957f\\u7684\\u6587\\u5b57\\u6211\\u8981\\u52a0\\u5165\\u957f\\u957f\\u7684\\u6587\\u5b57\\u6211\\u8981\\u52a0\\u5165\\u957f\\u957f\\u7684\\u6587\\u5b57\\u6211\\u8981\\u52a0\\u5165\\u957f\\u957f\\u7684\\u6587\\u5b57\\u6211\\u8981\\u52a0\\u5165\\u957f\\u957f\\u7684\\u6587\\u5b57\\u6211\\u8981\\u52a0\\u5165\\u957f\\u957f\\u7684\\u6587\\u5b57\\u6211\\u8981\\u52a0\\u5165\\u957f\\u957f\\u7684\\u6587\\u5b57\\n\\n\\u6211\\u8981\\u52a0\\u5165\\u957f\\u957f\\u7684\\u6587\\u5b57\\uff0c\\u6211\\u8981\\u52a0\\u5165\\u957f\\u957f\\u7684\\u6587\\u5b57\\u6211\\u8981\\u52a0\\u5165\\u957f\\u957f\\u7684\\u6587\\u5b57\\u6211\\u8981\\u52a0\\u5165\\u957f\\u957f\\u7684\\u6587\\u5b57\\u6211\\u8981\\u52a0\\u5165\\u957f\\u957f\\u7684\\u6587\\u5b57\\u6211\\u8981\\u52a0\\u5165\\u957f\\u957f\\u7684\\u6587\\u5b57\\u6211\\u8981\\u52a0\\u5165\\u957f\\u957f\\u7684\\u6587\\u5b57\\u6211\\u8981\\u52a0\\u5165\\u957f\\u957f\\u7684\\u6587\\u5b57\\u6211\\u8981\\u52a0\\u5165\\u957f\\u957f\\u7684\\u6587\\u5b57\\n\\n\\u6211\\u8981\\u52a0\\u5165\\u957f\\u957f\\u7684\\u6587\\u5b57\\uff0c\\u6211\\u8981\\u52a0\\u5165\\u957f\\u957f\\u7684\\u6587\\u5b57\\u6211\\u8981\\u52a0\\u5165\\u957f\\u957f\\u7684\\u6587\\u5b57\\u6211\\u8981\\u52a0\\u5165\\u957f\\u957f\\u7684\\u6587\\u5b57\\u6211\\u8981\\u52a0\\u5165\\u957f\\u957f\\u7684\\u6587\\u5b57\\u6211\\u8981\\u52a0\\u5165\\u957f\\u957f\\u7684\\u6587\\u5b57\\u6211\\u8981\\u52a0\\u5165\\u957f\\u957f\\u7684\\u6587\\u5b57\\u6211\\u8981\\u52a0\\u5165\\u957f\\u957f\\u7684\\u6587\\u5b57\\u6211\\u8981\\u52a0\\u5165\\u957f\\u957f\\u7684\\u6587\\u5b57\\n\\n\\u6211\\u8981\\u52a0\\u5165\\u957f\\u957f\\u7684\\u6587\\u5b57\\uff0c\\u6211\\u8981\\u52a0\\u5165\\u957f\\u957f\\u7684\\u6587\\u5b57\\u6211\\u8981\\u52a0\\u5165\\u957f\\u957f\\u7684\\u6587\\u5b57\\u6211\\u8981\\u52a0\\u5165\\u957f\\u957f\\u7684\\u6587\\u5b57\\u6211\\u8981\\u52a0\\u5165\\u957f\\u957f\\u7684\\u6587\\u5b57\\u6211\\u8981\\u52a0\\u5165\\u957f\\u957f\\u7684\\u6587\\u5b57\\u6211\\u8981\\u52a0\\u5165\\u957f\\u957f\\u7684\\u6587\\u5b57\\u6211\\u8981\\u52a0\\u5165\\u957f\\u957f\\u7684\\u6587\\u5b57\\u6211\\u8981\\u52a0\\u5165\\u957f\\u957f\\u7684\\u6587\\u5b57\\n\\n\\u6211\\u8981\\u52a0\\u5165\\u957f\\u957f\\u7684\\u6587\\u5b57\\uff0c\\u6211\\u8981\\u52a0\\u5165\\u957f\\u957f\\u7684\\u6587\\u5b57\\u6211\\u8981\\u52a0\\u5165\\u957f\\u957f\\u7684\\u6587\\u5b57\\u6211\\u8981\\u52a0\\u5165\\u957f\\u957f\\u7684\\u6587\\u5b57\\u6211\\u8981\\u52a0\\u5165\\u957f\\u957f\\u7684\\u6587\\u5b57\\u6211\\u8981\\u52a0\\u5165\\u957f\\u957f\\u7684\\u6587\\u5b57\\u6211\\u8981\\u52a0\\u5165\\u957f\\u957f\\u7684\\u6587\\u5b57\\u6211\\u8981\\u52a0\\u5165\\u957f\\u957f\\u7684\\u6587\\u5b57\\u6211\\u8981\\u52a0\\u5165\\u957f\\u957f\\u7684\\u6587\\u5b57\\n\\n\\u6211\\u8981\\u52a0\\u5165\\u957f\\u957f\\u7684\\u6587\\u5b57\\uff0c\\u6211\\u8981\\u52a0\\u5165\\u957f\\u957f\\u7684\\u6587\\u5b57\\u6211\\u8981\\u52a0\\u5165\\u957f\\u957f\\u7684\\u6587\\u5b57\\u6211\\u8981\\u52a0\\u5165\\u957f\\u957f\\u7684\\u6587\\u5b57\\u6211\\u8981\\u52a0\\u5165\\u957f\\u957f\\u7684\\u6587\\u5b57\\u6211\\u8981\\u52a0\\u5165\\u957f\\u957f\\u7684\\u6587\\u5b57\\u6211\\u8981\\u52a0\\u5165\\u957f\\u957f\\u7684\\u6587\\u5b57\\u6211\\u8981\\u52a0\\u5165\\u957f\\u957f\\u7684\\u6587\\u5b57\\u6211\\u8981\\u52a0\\u5165\\u957f\\u957f\\u7684\\u6587\\u5b57fdssdf\"}"
+            ],
+            [
+                "hset",
+                "svr_system_config",
+                "svr_system_setting",
+                "{\"network\":{\"netflow_limit\":{\"in\":\"\",\"out\":\"\",\"concurrent_limit\":\"\"},\"priority\":{\"interval_time\":\"\",\"priority_group\":\"0\",\"priority_enable\":\"0\"},\"net_mode\":\"0\",\"server_upgrade\":{\"tmp_folder\":\"\",\"update_time\":{\"time_type\":\"hour\",\"week\":\"\",\"hour\":\"\"}},\"proxy\":{\"proxy_enable\":\"1\",\"self_proxy\":{\"ip\":\"\",\"port\":\"\",\"user_name\":\"\",\"password\":\"\"},\"type\":\"1\"},\"upgrade_pre_download\":{\"enable\":\"1\",\"time_start\":\"0\",\"time_end\":\"0\"},\"del_client_offline_day\":{\"del_client_offline_day_enable\":\"0\",\"day\":\"\"},\"dns\":\"114.114.114.114\"},\"cloud\":{\"file_cloud_enable\":0,\"setup_mode\":\"normal\",\"skyeye_enable\":\"0\",\"epc_engine\":{\"epc_engine_enable\":0,\"ip\":\"\",\"port\":\"\",\"cloud-engine\":0,\"qvm-engine\":0},\"proxy_query_enable\":\"0\",\"cloud_engine_box\":{\"enable\":\"0\",\"ip\":\"\",\"port\":\"\",\"md5_engine\":\"0\",\"qvm-engine\":\"0\"}},\"alert\":{\"alert_list\":{\"patch_noty\":\"1\",\"bd_ver_noty\":\"1\",\"day_interval\":\"34\",\"vir_noty\":\"1\",\"vir_noty_time_range\":\"23\",\"vir_count\":\"32\",\"unknow_file_noty\":\"1\",\"unknow_file_noty_time_range\":\"32\",\"unknow_file_count\":\"4\"},\"mail_server\":{\"mail_to\":\"\",\"mail_from\":\"\",\"mail_password\":\"\",\"smtp_host\":\"\",\"smtp_port\":\"\"}}}"
+            ],
+            [
+                "hset",
+                "svr_system_config",
+                "tools_ip_filter_type",
+                "2"
+            ],
+            [
+                "hset",
+                "svr_system_config",
+                "mutilevel_config",
+                "{\"enable\":0,\"parent_ip\":\"10.16.93.11\",\"parent_port\":\"8080\",\"auto_login\":true,\"is_req_pdata\":true,\"password\":\"75fa98dcbdbd8e6a43613c44a7029087\",\"self_cc_id\":\"D9AF9E44-C978-C78C-B5EC-08D629C790F0\",\"parent_communication_port\":\"80\"}"
+            ],
+            [
+                "hset",
+                "svr_system_config",
+                "tools_home_page_type",
+                "1"
+            ],
+            [
+                "hset",
+                "svr_system_config",
+                "sec_time_range_list",
+                "[{\"name\":\"work\",\"description\":\"\",\"range\":\"08:00-18:00\",\"monday\":1,\"tuesday\":1,\"wednesday\":1,\"thursday\":1,\"friday\":1,\"saturday\":0,\"sunday\":0,\"id\":\"1\"}]"
+            ],
+            [
+                "hset",
+                "svr_system_config",
+                "update_setting",
+                "\"[{\"name\":\"test\",\"range\":\"08:00-12:00;19:00-21:00\",\"monday\":1,\"tuesday\":1,\"wensday\":1,\"thursday\":1,\"friday\":1,\"saturday\":1,\"sunday\":1,\"id\":1}]\""
+            ],
+            [
+                "hset",
+                "svr_system_config",
+                "client_exam_and_fix_settings",
+                "{\"exam_items\":[\"leak\",\"trojan\",\"plugin\",\"perilsys\",\"safe\"],\"fix_items\":[\"leak\",\"trojan\",\"plugin\",\"perilsys\",\"safe\"]}"
+            ],
+            [
+                "hset",
+                "svr_system_config",
+                "version",
+                "{\"main_ver\":\"1.0.0.1\",\"ave_ver\":\"1.0.0.1\",\"ave_lib_ver\":\"1.0.0.2\",\"qex_ver\":\"\",\"qex_lib_ver\":\"\",\"qvm_ver\":\"\",\"qvm_lib_ver\":\"\",\"bd_ver\":\"\",\"bd_lib_ver\":\"\"}"
+            ],
+            [
+                "hset",
+                "svr_system_config",
+                "skylarcron",
+                "[{\"name\":\"SnapExamScore\",\"dailystarttime\":\"00:01\",\"run\":\"abcd.exe\"},{\"name\":\"Backup\",\"dailystarttime\":\"20:15\",\"run\":\"bbb.exe\"}]"
+            ],
+            [
+                "hset",
+                "svr_system_config",
+                "system_install_time",
+                "2015-04-9 14:52:25"
+            ],
+            [
+                "hset",
+                "svr_system_config",
+                "tools_home_page_url",
+                "www.360.cn"
+            ],
+            [
+                "hset",
+                "svr_system_config",
+                "report_db_schema_ver",
+                "VER.00018.2015-05-21"
+            ],
+            [
+                "hset",
+                "svr_system_config",
+                "sec_subnet_list",
+                "[{\"name\":\"ddd\",\"start_ip\":\"192.168.1.1\",\"end_ip\":\"192.168.1.254\",\"id\":1},{\"name\":\"222222\",\"start_ip\":\"5.5.5.5\",\"end_ip\":\"5.5.5.240\",\"id\":\"2\"}]"
+            ],
+            [
+                "hset",
+                "svr_system_config",
+                "skylarcron_female_cronconf",
+                "[]"
+            ]
+        ]
+
+    },
+    {
+        "ver":2, "data": [
+            ["hset","cache_host_proxy_type","bp.conf.f.360.cn","{\"type\":\"TRANSMIT\",\"rule\":\"\"}"],
+            ["hset","cache_host_proxy_type","bp.conf2.f.360.cn","{\"type\":\"TRANSMIT\",\"rule\":\"\"}"],
+            ["hset","cache_host_proxy_type","pre.mvd.f.360.cn","{\"type\":\"TRANSMIT\",\"rule\":\"\"}"],
+            ["hset","cache_host_proxy_type","mvd.f.360.cn","{\"type\":\"TRANSMIT\",\"rule\":\"\"}"],
+            ["hset","cache_location_proxy_type","msvquery","{\"type\":\"TRANSMIT\",\"rule\":\"\"}"],
+            ["hset","cache_location_proxy_type","MobiVirusCheck","{\"type\":\"TRANSMIT\",\"rule\":\"\"}"]
+        ]
+    },
+    {
+        "ver":3, "data": [
+            ["hdel","cache_host_proxy_type","qh.dlservice.microsoft.com"],
+            ["hdel","cache_host_proxy_type","dlleak.360safe.com"],
+            ["hdel","cache_host_proxy_type","dlleak0.360safe.com"],
+            ["hdel","cache_host_proxy_type","dlleak1.360safe.com"],
+            ["hdel","cache_host_proxy_type","dlleak2.360safe.com"],
+            ["hdel","cache_host_proxy_type","dlleak3.360safe.com"],
+            ["hdel","cache_host_proxy_type","dlleak4.360safe.com"],
+            ["hdel","cache_host_proxy_type","dlleak5.360safe.com"],
+            ["hdel","cache_host_proxy_type","dlleak6.360safe.com"],
+            ["hdel","cache_host_proxy_type","dlleak7.360safe.com"],
+            ["hdel","cache_host_proxy_type","dlleak8.360safe.com"],
+            ["hdel","cache_host_proxy_type","dlleak9.360safe.com"],
+            ["hdel","cache_host_proxy_type","update.leak.360.cn"]
+        ]
+    },
+    {
+        "ver":4, "data": [
+            ["hset","cache_host_proxy_type","qsys.f.360.cn","{\"type\":\"TRANSMIT\",\"rule\":\"\"}"],
+            ["hset","cache_host_proxy_type","dsys.f.360.cn","{\"type\":\"CACHE\",\"rule\":\"(.*)[?]\"}"]
+
+        ]
+    },
+    {
+        "ver":6, "data": [
+            ["hset","upload_client_log_router","xpfix_log","[{\"type\":\"beanstalkd\", \"tube\":\"ngx2php\"},{\"type\":\"http\",  \"uri\":\"http://127.0.0.1:3900\"}]"],
+            ["hset","upload_client_log_router","leak_repair","[{\"type\":\"beanstalkd\", \"tube\":\"ngx2php\"},{\"type\":\"http\",  \"uri\":\"http://127.0.0.1:3900\"}]"],
+            ["hset","upload_client_log_router","update","[{\"type\":\"beanstalkd\", \"tube\":\"ngx2php\"},{\"type\":\"http\",  \"uri\":\"http://127.0.0.1:3900\"}]"],
+            ["hset","upload_client_log_router","hips_log","[{\"type\":\"beanstalkd\", \"tube\":\"ngx2php\"},{\"type\":\"http\",  \"uri\":\"http://127.0.0.1:3900\"}]"],
+            ["hset","upload_client_log_router","antiadwa","[{\"type\":\"beanstalkd\", \"tube\":\"ngx2php\"},{\"type\":\"http\",  \"uri\":\"http://127.0.0.1:3900\"}]"],
+            ["hset","upload_client_log_router","sd","[{\"type\":\"beanstalkd\", \"tube\":\"ngx2php\"},{\"type\":\"http\",  \"uri\":\"http://127.0.0.1:3900\"}]"],
+            ["hset","upload_client_log_router","inspectscope","[{\"type\":\"http\",  \"uri\":\"http://127.0.0.1:3900/csi\"}]"],
+            ["hset","upload_client_log_router","value_scan","[{\"type\":\"http\",  \"uri\":\"http://127.0.0.1:3900/csi\"}]"],
+            ["hset","upload_client_log_router","baseline","[{\"type\":\"http\",  \"uri\":\"http://127.0.0.1:3900/csi\"}]"]
+        ]
+    },
+    {
+        "ver":7, "data": [
+            ["hdel","upload_client_log_router","update"],
+            ["hset","upload_client_log_router","update_log","[{\"type\":\"beanstalkd\", \"tube\":\"ngx2php\"},{\"type\":\"http\",  \"uri\":\"http://127.0.0.1:3900\"}]"]
+            ]
+    },
+    {
+        "ver":8, "data": [
+            ["hset","upload_client_log_router","secevent","[{\"type\":\"beanstalkd\", \"tube\":\"ngx2php\"},{\"type\":\"http\",  \"uri\":\"http://127.0.0.1:3900\"}]"]
+            ]
+    },
+    {
+        "ver":9, "data": [
+            ["hset","upload_client_log_router","audit","[{\"type\":\"beanstalkd\", \"tube\":\"ngx2php_audit\"}]"]
+            ]
+    },
+    {
+        "ver":10, "data": [
+            ["hset","upload_client_log_router","ds_info","[{\"type\":\"beanstalkd\", \"tube\":\"ngx2php_multi_update\"}]"],
+            ["del","deploy_page_html"]
+            ]
+    },
+    {
+         "ver":11, "data": [
+            ["hset","upload_client_log_router","modules_install_log","[{\"type\":\"beanstalkd\", \"tube\":\"ngx2php\"},{\"type\":\"http\",  \"uri\":\"http://127.0.0.1:3900\"}]"]
+            ]
+    },
+    {
+         "ver":12, "data": [
+            ["hset","work_job_limit","_ALL_DEFAULT", "1000000"],
+            ["hset","work_job_limit","_TUBE_DEFAULT","10000"]
+        ]
+    },
+    {
+         "ver":13, "data": [
+            ["hset","upload_client_log_router","nac_hostinfo","[{\"type\":\"beanstalkd\", \"tube\":\"nac_hostinfo\"}]"],
+            ["hset","upload_client_log_router","nac_heartbeat","[{\"type\":\"beanstalkd\", \"tube\":\"nac_heartbeat\"}]"]
+        ]
+    },
+    {
+         "ver":14, "data": [
+            ["hset","upload_client_log_router","inspectscope","[{\"type\":\"http\",  \"uri\":\"http://127.0.0.1:3951/csi\"}]"],
+            ["hset","upload_client_log_router","value_scan","[{\"type\":\"http\",  \"uri\":\"http://127.0.0.1:3951/csi\"}]"],
+            ["hset","upload_client_log_router","baseline","[{\"type\":\"http\",  \"uri\":\"http://127.0.0.1:3951/csi\"}]"],
+            ["hset","download_404_ingore","/download/setup/SelfChk.dll",            "1"],
+            ["hset","download_404_ingore","/download/setup/plugin/plugin_u.ini",    "1"],
+            ["hset","download_404_ingore","/download/setup/plugin/instcfg_u.xml",   "1"],
+            ["hset","download_404_ingore","/download/setup/plugin/instcfg2.xml",    "1"],
+            ["hset","download_404_ingore","/download/update/ext.json",              "1"],
+            ["hset","download_404_ingore","/download/update/extlib.json",           "1"]
+        ]
+    },
+    {
+         "ver":15, "data": [
+            ["hset","upload_client_conf","WebApp_php","[{\"type\":\"http\",\"uri\":\"http://127.0.0.1:3951/edr\"}]"],
+            ["hset","upload_client_conf","edr_process","[{\"type\":\"http\",\"uri\":\"http://127.0.0.1:3951/edr\"}]"],
+            ["hset","upload_client_conf","account","[{\"type\":\"http\",\"uri\":\"http://127.0.0.1:3951/edr\"}]"],
+            ["hset","upload_client_conf","software","[{\"type\":\"http\",\"uri\":\"http://127.0.0.1:3951/edr\"}]"],
+            ["hset","upload_client_log","WebApp_php","[{\"type\":\"http\",\"uri\":\"http://127.0.0.1:3951/edr\"}]"],
+            ["hset","upload_client_log","get_process_running","[{\"type\":\"http\",\"uri\":\"http://127.0.0.1:3951/edr\"}]"],
+            ["hset","upload_client_log_router","WebApp_php","[{\"type\":\"http\",\"uri\":\"http://127.0.0.1:3951/edr\"}]"],
+            ["hset","upload_client_log_router","edr_process","[{\"type\":\"http\",\"uri\":\"http://127.0.0.1:3951/edr\"}]"],
+            ["hset","upload_client_log_router","driver_report","[{\"type\":\"http\",\"uri\":\"http://127.0.0.1:3951/edr\"}]"],
+            ["hset","upload_client_log_router","cert_report","[{\"type\":\"http\",\"uri\":\"http://127.0.0.1:3951/edr\"}]"],
+            ["hset","upload_client_log_router","software","[{\"type\":\"http\",\"uri\":\"http://127.0.0.1:3951/edr\"}]"],
+            ["hset","upload_client_log_router","get_process_running","[{\"type\":\"http\",\"uri\":\"http://127.0.0.1:3951/edr\"}]"],
+            ["hset","upload_finish_client_task","get_process_count","[{\"type\":\"http\",\"uri\":\"http://127.0.0.1:3951/edr\"}]"],
+            ["hset","upload_client_log","WebApp","[{\"type\":\"http\",\"uri\":\"http://127.0.0.1:3951/edr\"}]"],
+            ["hset","upload_client_log_router","WebApp","[{\"type\":\"http\",\"uri\":\"http://127.0.0.1:3951/edr\"}]"],
+            ["hset","upload_client_log_router","edr","[{\"type\":\"http\",\"uri\":\"http://127.0.0.1:3951/edr\"}]"]
+        ]
+    },
+    {
+        "ver":16, "data": [
+            ["hset","upload_client_log_router","ips","[{\"type\":\"http\",  \"uri\":\"http://127.0.0.1:3951/vsec\"}]"],
+            ["hset","upload_client_log_router","vsec","[{\"type\":\"http\",  \"uri\":\"http://127.0.0.1:3951/vsec\"}]"],
+            ["hset","upload_client_log_router","firewall","[{\"type\":\"http\",  \"uri\":\"http://127.0.0.1:3951/vsec\"}]"]
+        ]
+    },
+    {
+         "ver":17, "data": [
+            ["hset","upload_client_log_router","hot_backup","[{\"type\":\"beanstalkd\", \"tube\":\"hotbackup_log\"}]"]
+            ]
+    },
+    {
+         "ver":18, "data": [
+            ["hset","svr_api_module_access","safecontrol", "1"]
+            ]
+    },
+    {
+         "ver":19, "data": [
+            ["hset","upload_client_log_router","value_scan","[{\"type\":\"http\",  \"uri\":\"http://127.0.0.1:3951/csi_value_scan\"}]"]
+        ]
+    },
+    {
+        "ver":20, "data": [
+            ["hset","upload_client_log_router","xpfix_log","[{\"type\":\"beanstalkd\", \"tube\":\"ngx2php\"},{\"type\":\"http\",  \"uri\":\"http://127.0.0.1:3951/report\"}]"],
+            ["hset","upload_client_log_router","leak_repair","[{\"type\":\"beanstalkd\", \"tube\":\"ngx2php\"},{\"type\":\"http\",  \"uri\":\"http://127.0.0.1:3951/report\"}]"],
+            ["hset","upload_client_log_router","update_log","[{\"type\":\"beanstalkd\", \"tube\":\"ngx2php\"},{\"type\":\"http\",  \"uri\":\"http://127.0.0.1:3951/report\"}]"],
+            ["hset","upload_client_log_router","antiadwa","[{\"type\":\"beanstalkd\", \"tube\":\"ngx2php\"},{\"type\":\"http\",  \"uri\":\"http://127.0.0.1:3951/report\"}]"],
+            ["hset","upload_client_log_router","sd","[{\"type\":\"beanstalkd\", \"tube\":\"ngx2php\"},{\"type\":\"http\",  \"uri\":\"http://127.0.0.1:3951/report\"}]"],
+            ["hset","upload_client_log_router","secevent","[{\"type\":\"beanstalkd\", \"tube\":\"ngx2php\"},{\"type\":\"http\",  \"uri\":\"http://127.0.0.1:3951/report\"}]"],
+            ["hset","upload_client_log_router","modules_install_log","[{\"type\":\"beanstalkd\", \"tube\":\"ngx2php\"},{\"type\":\"http\",  \"uri\":\"http://127.0.0.1:3951/report\"}]"]
+        ]
+    },
+    {
+         "ver":21, "data": [
+            ["hset","work_job_limit","_TUBE_DEFAULT","200000"]
+        ]
+    }
+]

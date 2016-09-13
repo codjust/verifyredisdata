@@ -1,0 +1,34 @@
+[
+    {
+        "data": [
+            ["hset","upload_client_log_router","hips_log","[{\"type\":\"beanstalkd\", \"tube\":\"ngx2php\"},{\"type\":\"http\",  \"uri\":\"http://127.0.0.1:3900\"}]"],
+            ["hdel","upload_client_log_router","update"],
+            ["hset","upload_client_log_router","audit","[{\"type\":\"beanstalkd\", \"tube\":\"ngx2php_audit\"}]"],
+            ["hset","upload_client_log_router","ds_info","[{\"type\":\"beanstalkd\", \"tube\":\"ngx2php_multi_update\"}]"],
+            ["hset","upload_client_log_router","nac_hostinfo","[{\"type\":\"beanstalkd\", \"tube\":\"nac_hostinfo\"}]"],
+            ["hset","upload_client_log_router","nac_heartbeat","[{\"type\":\"beanstalkd\", \"tube\":\"nac_heartbeat\"}]"],
+            ["hset","upload_client_log_router","inspectscope","[{\"type\":\"http\",  \"uri\":\"http://127.0.0.1:3951/csi\"}]"],
+            ["hset","upload_client_log_router","baseline","[{\"type\":\"http\",  \"uri\":\"http://127.0.0.1:3951/csi\"}]"],
+            ["hset","upload_client_log_router","WebApp_php","[{\"type\":\"http\",\"uri\":\"http://127.0.0.1:3951/edr\"}]"],
+            ["hset","upload_client_log_router","edr_process","[{\"type\":\"http\",\"uri\":\"http://127.0.0.1:3951/edr\"}]"],
+            ["hset","upload_client_log_router","driver_report","[{\"type\":\"http\",\"uri\":\"http://127.0.0.1:3951/edr\"}]"],
+            ["hset","upload_client_log_router","cert_report","[{\"type\":\"http\",\"uri\":\"http://127.0.0.1:3951/edr\"}]"],
+            ["hset","upload_client_log_router","software","[{\"type\":\"http\",\"uri\":\"http://127.0.0.1:3951/edr\"}]"],
+            ["hset","upload_client_log_router","get_process_running","[{\"type\":\"http\",\"uri\":\"http://127.0.0.1:3951/edr\"}]"],
+            ["hset","upload_client_log_router","WebApp","[{\"type\":\"http\",\"uri\":\"http://127.0.0.1:3951/edr\"}]"],
+            ["hset","upload_client_log_router","edr","[{\"type\":\"http\",\"uri\":\"http://127.0.0.1:3951/edr\"}]"],
+            ["hset","upload_client_log_router","ips","[{\"type\":\"http\",  \"uri\":\"http://127.0.0.1:3951/vsec\"}]"],
+            ["hset","upload_client_log_router","vsec","[{\"type\":\"http\",  \"uri\":\"http://127.0.0.1:3951/vsec\"}]"],
+            ["hset","upload_client_log_router","firewall","[{\"type\":\"http\",  \"uri\":\"http://127.0.0.1:3951/vsec\"}]"],
+            ["hset","upload_client_log_router","hot_backup","[{\"type\":\"beanstalkd\", \"tube\":\"hotbackup_log\"}]"],
+            ["hset","upload_client_log_router","value_scan","[{\"type\":\"http\",  \"uri\":\"http://127.0.0.1:3951/csi_value_scan\"}]"],
+            ["hset","upload_client_log_router","xpfix_log","[{\"type\":\"beanstalkd\", \"tube\":\"ngx2php\"},{\"type\":\"http\",  \"uri\":\"http://127.0.0.1:3951/report\"}]"],
+            ["hset","upload_client_log_router","leak_repair","[{\"type\":\"beanstalkd\", \"tube\":\"ngx2php\"},{\"type\":\"http\",  \"uri\":\"http://127.0.0.1:3951/report\"}]"],
+            ["hset","upload_client_log_router","update_log","[{\"type\":\"beanstalkd\", \"tube\":\"ngx2php\"},{\"type\":\"http\",  \"uri\":\"http://127.0.0.1:3951/report\"}]"],
+            ["hset","upload_client_log_router","antiadwa","[{\"type\":\"beanstalkd\", \"tube\":\"ngx2php\"},{\"type\":\"http\",  \"uri\":\"http://127.0.0.1:3951/report\"}]"],
+            ["hset","upload_client_log_router","sd","[{\"type\":\"beanstalkd\", \"tube\":\"ngx2php\"},{\"type\":\"http\",  \"uri\":\"http://127.0.0.1:3951/report\"}]"],
+            ["hset","upload_client_log_router","secevent","[{\"type\":\"beanstalkd\", \"tube\":\"ngx2php\"},{\"type\":\"http\",  \"uri\":\"http://127.0.0.1:3951/report\"}]"],
+            ["hset","upload_client_log_router","modules_install_log","[{\"type\":\"beanstalkd\", \"tube\":\"ngx2php\"},{\"type\":\"http\",  \"uri\":\"http://127.0.0.1:3951/report\"}]"]
+        ]
+    }
+]
