@@ -28,8 +28,6 @@ func callredis_updateEXE(filePath string, filename string, argA, argB string) {
 	if err != nil {
 		panic(err.Error())
 	}
-
-	fmt.Println("Current path:", getCurrentPath())
 	cmd := exec.Command(filePath+filename, argA, argB)
 	cmd.Dir = filePath
 	var out bytes.Buffer
@@ -80,7 +78,6 @@ func redisDoStrings(client redis.Conn, args ...string) []string {
 		fmt.Println("not args into")
 		panic("unrecognized escape character")
 	}
-
 }
 
 func redisDoString(client redis.Conn, args ...string) string {
@@ -124,13 +121,12 @@ func operateRedis(fileName string) {
 	}
 	redisOld := redisDoStrings(client, "SORT", "redisOld", "ALPHA")
 	for _, k := range redisOld {
-		//fmt.Println("new Keys:", i, k)
 		keytype := redisDoString(client, "type", k)
-
 		if keytype == "string" {
 			value := redisDoString(client, "GET", k)
 			FileWrite(file, "\n")
 			FileWrite(file, k+":"+value)
+			FileWrite(file, "\n")
 		} else if keytype == "hash" {
 			value := redisDoStrings(client, "HKEYS", k)
 			hashkey := SortHashKey(value, client)
@@ -138,7 +134,6 @@ func operateRedis(fileName string) {
 			WriteHashValuetoFile(k, hashkey, file, client)
 		}
 	}
-
 }
 func FileWrite(file *os.File, str string) {
 	_, err := file.WriteString(str)
@@ -158,11 +153,11 @@ func SortHashKey(key []string, client redis.Conn) []string {
 }
 func WriteHashValuetoFile(hash string, keys []string, file *os.File, client redis.Conn) {
 	FileWrite(file, "\n")
-	FileWrite(file, hash+":\n")
 	for _, k := range keys {
 		value := redisDoString(client, "HGET", hash, k)
-		FileWrite(file, k+"    ")
-		FileWrite(file, value+"\n")
+		FileWrite(file, "KEY:"+hash+" ")
+		FileWrite(file, "FILEID:"+k+" ")
+		FileWrite(file, "VALUE:"+value+"\n")
 	}
 	_, err := client.Do("DEL", "HashKey")
 	if err != nil {
